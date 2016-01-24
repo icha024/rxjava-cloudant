@@ -1,7 +1,5 @@
 package com.clianz.cloudant.rx;
 
-import com.clianz.bluemix.configurator.BluemixConfigStore;
-import com.clianz.bluemix.configurator.models.BluemixConfig;
 import com.clianz.cloudant.rx.internal.CredentialUtils;
 import com.cloudant.client.api.ClientBuilder;
 import com.cloudant.client.api.CloudantClient;
