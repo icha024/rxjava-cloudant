@@ -7,15 +7,15 @@ Wrap the Rx type around it's Non-Rx equivalent, using the constructor provided, 
 
 Example for creating Rx Cloudant client: 
 ```java
-CloudantClientRx rxClient = new CloudantClientRx(normalCloudantClient)
+CloudantClientRx cloudantClientRx = new CloudantClientRx(normalCloudantClient)
 ```
 
 Example creating a Rx Cloudant database:
 ```java
-CloudantDatabaseRx rxDatabase = new CloudantDatabaseRx(normalCloudantDatabase)
+CloudantDatabaseRx cloudantDatabaseRx = new CloudantDatabaseRx(normalCloudantDatabase)
 ```
 
-## Available Rx wrapper types:
+## Rx Wrapper Types Available:
 - CloudantChangeRx
 - CloudantClientRx
 - CloudantDatabaseRx
