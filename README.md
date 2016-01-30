@@ -10,7 +10,7 @@ Example for creating Rx Cloudant client:
 CloudantClientRx cloudantClientRx = new CloudantClientRx(normalCloudantClient)
 ```
 
-Example creating a Rx Cloudant database:
+Example for creating a Rx Cloudant database:
 ```java
 CloudantDatabaseRx cloudantDatabaseRx = new CloudantDatabaseRx(normalCloudantDatabase)
 ```
